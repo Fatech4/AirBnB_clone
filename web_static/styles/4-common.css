@@ -1,9 +1,15 @@
 body{
     margin:0;
     padding:0;
-    /* display: flex; */
+    /* position: relative; */
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
 .container{
+    width:100%;
+    /* border: 1px solid blue; */
     max-width: 1000px;
     /* margin-top:30px; */
     margin: 30px auto;
